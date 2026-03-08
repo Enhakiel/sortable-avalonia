@@ -68,7 +68,7 @@ dotnet add package Sortable.Avalonia
 
 ### Visit the repository for the full documentation
 
-📖 **[Responsive.Avalonia Repo - Full Documentation & Interactive Demos](https://github.com/yourusername/Sortable.Avalonia)**
+📖 **[Sortable.Avalonia Repo - Full Documentation & Interactive Demos](https://github.com/russkyc/sortable-avalonia)**
 
 The repository includes:
 - Detailed property reference
