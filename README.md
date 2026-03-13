@@ -69,18 +69,18 @@ MVVM-first attached-behavior library for Avalonia `ItemsControl` enabling drag-a
 
 ## Installation
 
-Install via NuGet (`Responsive.Avalonia`):
+Install via NuGet (`Sortable.Avalonia`):
 
 **.NET CLI**
 
 ```powershell
-dotnet add package Responsive.Avalonia
+dotnet add package Sortable.Avalonia
 ```
 
 **Package Manager Console**
 
 ```powershell
-Install-Package Responsive.Avalonia
+Install-Package Sortable.Avalonia
 ```
 
 **XAML namespace:**
