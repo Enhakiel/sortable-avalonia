@@ -22,9 +22,15 @@ jobs:
           source-url: https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json
         env:
           NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Restore
+        run: dotnet restore
 
+      - name: Build
+        run: dotnet build Sortable.Avalonia/Sortable.Avalonia.csproj --configuration Release --no-restore
+        
       - name: Pack
-        run: dotnet pack --configuration Release -o nupkgs
+        run: dotnet pack Sortable.Avalonia/Sortable.Avalonia.csproj --configuration Release -o nupkgs --no-build
 
       - name: Push to GitHub Packages
         run: |
